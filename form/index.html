@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" media="all" />
+    <script src="script.js"></script>
+    <title>Formulario de Pesquisa</title>
+
+</head>
+<body>
+  <h2>Formulário de Pesquisa</h2>
+  <form id="Formulario">
+    <fieldset>
+      <legend>Sexo</legend>
+      <div class="sexo">
+        <input type="checkbox" id="Masculino" name="masculino" value="masculino">
+        <label for="masculino">Masculino</label>
+        <br>        
+            <input type="checkbox" id="Feminino" name="feminino" value="feminino">
+        <label for="feminino">Feminino</label>
+      </div>      
+    </fieldset>
+    <br>
+    <fieldset>
+      <legend>Data de Nascimento</legend>
+    <div>
+      <input type="date" id="Idade" name="idade" value="">
+    </div>
+  </fieldset>
+  <br>
+  <fieldset>
+    <legend>Tipo de Serviço</legend>
+    <div id="selectBox">
+      <input type="checkbox" id="compra" onclick="checkBoxes()">
+      <label for="compra">Compra</label>
+      <br>
+      <input type="checkbox" id="Manutenção" name="manutenção" value="manutencao">
+      <label for="manutencao">Manutenção</label>
+      <br>
+      <input type="checkbox" id="Garantia" name="garantia" value="garantia">
+      <label for="garantia">Garantia</label>
+      <br>
+    </div>
+  </fieldset>
+    <br>
+    <input type="submit" value="Enviar">
+  </form>
+</body>
+</html>
+
+    
